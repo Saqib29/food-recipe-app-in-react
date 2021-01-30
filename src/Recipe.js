@@ -11,7 +11,7 @@ export default function Recipe({title, calories, image, ingredients}) {
                 ))}
             </ol>
             <img className={style.image} src={image} alt=""/>
-            <p> { calories } calories</p>
+            <p><strong>Calories:</strong> { calories } calories</p>
         </div>
     )
 }

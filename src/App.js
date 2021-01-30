@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import Recipe from './Recipe';
+import FOOTER from './footer'
 
 const App = () => {
 
@@ -50,6 +51,8 @@ const App = () => {
           />
         ))}
       </div>
+
+      <FOOTER />
     </div>
   );
 }
